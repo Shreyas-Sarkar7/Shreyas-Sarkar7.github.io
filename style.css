@@ -169,6 +169,14 @@ a {
   justify-content: center;
 }
 
+.landing-profile-img {
+  width: 400px;
+  height: 420px; 
+  object-fit: cover;
+  border-radius: 50%; 
+  border: 2px solid var(--accent-blue);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
 /* About Me Styles */
 .about {
   background-color: var(--dark-bg);
