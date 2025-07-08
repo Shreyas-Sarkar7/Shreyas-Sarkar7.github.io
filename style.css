@@ -281,7 +281,6 @@ a {
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
 }
 
-
 .project-card-right {
   flex: 1;
   padding: 0 1rem;
@@ -454,36 +453,10 @@ a {
   font-size: 0.9rem;
 }
 
-/* Existing variables and base styles remain the same */
-
-/* /~ Responsive Breakpoints ~/ */
-/* @media (max-width: 1200px) { */
-/* .container { */
-/* width: 80%; */
-/* } */
-
-/* .certificate-card-container { */
-/* grid-template-columns: repeat(2, 1fr); */
-/* } */
-/* } */
-
+/* Mobile (Small Screens) */
 @media (max-width: 768px) {
   .container {
-    width: 90%;
-  }
-  .landing-content {
-    flex-direction: column;
-    text-align: center;
-    gap: 3rem;
-  }
-
-  .landing-contact-buttons {
-    justify-content: center;
-  }
-
-  .landing-left,
-  .landing-right {
-    width: 100%;
+    width: 80%;
   }
 
   .navbar .container {
@@ -496,6 +469,39 @@ a {
     justify-content: center;
   }
 
+  .navbar-name {
+    font-size: 2rem;
+  }
+
+  .navbar-items {
+    gap: 1.2rem;
+  }
+
+  .landing-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+    padding-top: 3rem;
+  }
+
+  .landing-greeting {
+    font-size: 1.2rem;
+  }
+  .landing-name {
+    font-size: 1.8rem;
+  }
+
+  .landing-contact-buttons {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .landing-profile-img {
+    width: 300px;
+    height: 320px;
+  }
+
   .aboutskills-container {
     flex-wrap: wrap;
   }
@@ -504,10 +510,11 @@ a {
   .mirror {
     flex-direction: column;
     text-align: center;
+    gap: 0;
   }
 
   .project-card-left {
-    width: 100%;
+    padding: 1rem;
   }
 
   .project-card-right {
@@ -516,12 +523,31 @@ a {
     align-items: center;
     text-align: center;
   }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+
   .project-skills-container {
     justify-content: center;
   }
 
+  .project-card {
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .project-card-left video {
+    width: 100%;
+    height: 350px;
+  }
+
   .certificate-card-container {
     grid-template-columns: 1fr;
+  }
+
+  .certificate-card {
+    flex-direction: column;
   }
 
   .certificate-card-right {
@@ -534,67 +560,16 @@ a {
     grid-template-columns: 1fr;
     text-align: center;
   }
-
-  .footer_links,
-  .footer_contact {
-    margin-top: 1.5rem;
-  }
 }
 
-@media (max-width: 576px) {
-  .container {
-    width: 95%;
-  }
-
-  .landing-name {
-    font-size: 2rem;
-  }
-
-  .landing-greeting {
-    font-size: 1.2rem;
-  }
-
-  .section-title {
-    font-size: 1.8rem;
-  }
-
-  .project-card {
-    padding: 1.5rem;
-  }
-
-  .certificate-card {
-    flex-direction: column;
-  }
-
-  .certificate-card-left {
-    padding: 1rem;
-  }
-
-  .landing-contact-buttons {
-    flex-direction: column;
-    align-items: center;
-  }
+/* Tablets (Landscape) & Small Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
 }
 
-/* Mobile-specific adjustments */
-@media (max-width: 400px) {
-  .navbar-name {
-    font-size: 1.5rem;
-  }
+/* Laptops & Desktops */
+@media (min-width: 1025px) and (max-width: 1440px) {
+}
 
-  .navbar-items {
-    gap: 1rem;
-  }
-
-  .landing-name {
-    font-size: 1.8rem;
-  }
-
-  .project-title {
-    font-size: 1.5rem;
-  }
-
-  .project-skills-container {
-    justify-content: center;
-  }
+/* Large Screens (Monitors & TVs) */
+@media (min-width: 1441px) {
 }
