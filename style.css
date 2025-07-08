@@ -454,7 +454,7 @@ a {
 }
 
 /* Mobile (Small Screens) */
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .container {
     width: 80%;
   }
