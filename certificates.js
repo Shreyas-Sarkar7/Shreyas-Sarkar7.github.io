@@ -21,6 +21,13 @@ const certificatesData = [
     image: "./Assets/Certificates/CERT_MostImprovedStudent.jpg",
   },
   {
+    title: "Most Resilient Student for Chemistry",
+    description:
+      "Awarded for being the moest resilient in my class for Chemistry.",
+    icon: "./Assets/Logo/LOGO_DUNEARN.png",
+    image: "./Assets/Certificates/CERT_ResilientChem.jpg",
+  },
+  {
     title: "Vice-Head Of Discipline Of 20th Student Council",
     description:
       "Appointed as Vice-Head of Discipline, responsible for maintaining discipline and promoting leadership within the student body.",
@@ -41,6 +48,13 @@ const certificatesData = [
       "Appointed as the Audio-Visual Representative for class 1 Topaz, overseeing multimedia activities and contributing to class events.",
     icon: "./Assets/Logo/LOGO_DUNEARN.png",
     image: "./Assets/Certificates/CERT_AudioVisualRepresentative.jpg",
+  },
+  {
+    title: "Vice Chairperson of Class",
+    description:
+      "Served as Vice Chairperson of the class, assisting with leadership and facilitating communication between students and teachers.",
+    icon: "./Assets/Logo/LOGO_DUNEARN.png",
+    image: "./Assets/Certificates/CERT_ViceChairperson.jpg",
   },
   {
     title: "Certificate of Completion for Aeronautics APLM",
@@ -70,12 +84,31 @@ const certificatesData = [
     icon: "./Assets/Logo/LOGO_QUESTA.png",
     image: "./Assets/Certificates/CERT_QuestaClub.jpg",
   },
+
   {
-    title: "Vice Chairperson of Class",
+    title: "Python Fundamentals Udemy Course",
+    description: "Udemy Course teaching foundational Python",
+    icon: "./Assets/Logo/LOGO_UDEMY.png",
+    image: "./Assets/Certificates/PYTHON-FUNDAMENTALS.png",
+  },
+  {
+    title: "Python Zero to Hero Udemy Course",
+    description: "Udemy Course teaching foundational Python",
+    icon: "./Assets/Logo/LOGO_UDEMY.png",
+    image: "./Assets/Certificates/PYTHON-ZEROTOHERO.png",
+  },
+  {
+    title: "Front-End Web Development Udemy Course",
     description:
-      "Served as Vice Chairperson of the class, assisting with leadership and facilitating communication between students and teachers.",
-    icon: "./Assets/Logo/LOGO_DUNEARN.png",
-    image: "./Assets/Certificates/CERT_ViceChairperson.jpg",
+      "Udemy Course teaching both HTML and CSS suitable for Front-End Web Development",
+    icon: "./Assets/Logo/LOGO_UDEMY.png",
+    image: "./Assets/Certificates/WEBDEV_COURSE.png",
+  },
+  {
+    title: "Arduino Udemy Course",
+    description: "Udemy Course teaching about foundations of arduino",
+    icon: "./Assets/Logo/LOGO_UDEMY.png",
+    image: "./Assets/Certificates/ARDUINO_COURSE.png",
   },
 ];
 
