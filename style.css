@@ -123,7 +123,7 @@ a {
 }
 
 .landing-left {
-  flex: 1;
+  flex: 4;
 }
 
 .landing-greeting {
@@ -414,9 +414,9 @@ a {
 
 /* Testimonal Styles */
 .testimonial-card-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .testimonial-card {
@@ -424,6 +424,7 @@ a {
   border-radius: 12px;
   padding: 2.5rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  flex: 1;
 }
 
 .testimonial-text {
